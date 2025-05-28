@@ -17,8 +17,3 @@ plugins:
   - jekyll-include-cache
   - jekyll-coffeescript
   - jekyll-commonmark-ghpages
-nav:
-  - title: Home
-    url: /
-  - title: About
-    url: /about.html
