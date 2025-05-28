@@ -1,23 +1,6 @@
 title: "Becky's AI Blog"
 description: "Exploring the latest in AI research, tools, and real-world applications"
-remote_theme: cotes2020/jekyll-theme-chirpy@v5.6.1
+theme: jekyll-theme-cayman
 
 lang: en
 timezone: Asia/Shanghai
-
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-remote-theme
-  - jekyll-gist
-  - jekyll-github-metadata
-  - jekyll-relative-links
-  - jekyll-optional-front-matter
-  - jekyll-readme-index
-  - jekyll-default-layout
-  - jekyll-titles-from-headings
-  - jekyll-include-cache
-  - jekyll-coffeescript
-  - jekyll-commonmark-ghpages
