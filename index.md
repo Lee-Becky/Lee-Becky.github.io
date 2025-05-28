@@ -1,7 +1,6 @@
 ---
-layout: page
+layout: home
 title: Home
-permalink: 
 ---
 
 # Li Chaofan loves Bai Jing — deeply, truly, and always.
