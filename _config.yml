@@ -9,7 +9,7 @@ url: "https://lee-becky.github.io"
 baseurl: ""
 
 # 主题设置
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: cotes2020/jekyll-theme-chirpy@v4.2.2
 
 # 插件配置
 plugins:
