@@ -1,118 +1,20 @@
-# Jekyll站点配置文件
-# 完整优化版本，适用于Chirpy主题
-
-# 基本站点设置
 title: Becky's AI Blog
-tagline: Sharing insights into the future of AI
-description: Exploring the latest in AI research, tools, and real-world applications.
-url: "https://lee-becky.github.io"
-baseurl: ""
-
-# 主题设置
-remote_theme: cotes2020/jekyll-theme-chirpy@v4.2.2
-
-# 插件配置
+description: Exploring the latest in AI research, tools, and real-world 
+theme: "cotes2020/jekyll-theme-chirpy"
 plugins:
-  - jekyll-remote-theme
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
   - jekyll-paginate
-  - jekyll-archives
-
-# 语言与时区设置
-lang: zh-CN
-timezone: Asia/Shanghai
-
-# 作者信息
-author:
-  name: Becky Lee
-  bio: AI enthusiast and technical blogger
-  email: lcfan961223@gmail.com
-  links:
-    - label: GitHub
-      icon: fab fa-github
-      url: https://github.com/Lee-Becky
-    - label: Twitter
-      icon: fab fa-twitter
-      url: https://twitter.com/
-    - label: LinkedIn
-      icon: fab fa-linkedin
-      url: https://linkedin.com/in/
-
-# 页面默认设置
-defaults:
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: post
-      comments: true
-      toc: true
-      math: false
-      mermaid: false
-      pin: false
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: page
-      comments: false
-
-# 分页设置
-paginate: 10
-paginate_path: /page:num/
-
-# 评论系统设置
-comments:
-  active: giscus
-  giscus:
-    repo: Lee-Becky/Lee-Becky.github.io
-    repo_id: # 需要填写您的GitHub仓库ID
-    category: Announcements
-    category_id: # 需要填写您的分类ID
-    mapping: pathname
-    input_position: bottom
-    lang: zh-CN
-
-# 搜索功能
-search:
-  enable: true
-  provider: default
-
-# 社交分享设置
-social_share:
-  enable: true
-  sites: twitter,facebook,linkedin
-
-# 文章目录设置
-toc:
-  enable: true
-  min_level: 1
-  max_level: 3
-
-# SEO优化设置
-seo:
-  enable: true
-
-# Google Analytics (可选)
-google_analytics:
-  id: # 填写您的跟踪ID
-
-# 自定义404页面
-404:
-  title: 页面未找到
-  subtitle: 抱歉，您访问的页面不存在或已被移动。
-
-# 压缩HTML
-compress_html:
-  clippings: all
-  comments: all
-  endings: all
-  profile: false
-  blanklines: false
-  ignore:
-    envs: [development]
-
-# Markdown处理器
-markdown: kramdown
+  - jekyll-remote-theme
+  - jekyll-gist
+  - jekyll-github-metadata
+  - jekyll-relative-links
+  - jekyll-optional-front-matter
+  - jekyll-readme-index
+  - jekyll-default-layout
+  - jekyll-titles-from-headings
+  - jekyll-include-cache
+  - jekyll-coffeescript
+  - jekyll-commonmark-ghpages
+remote_theme: cotes2020/jekyll-theme-chirpy@v5.6.1 # 指定兼容旧Jekyll版本的主题版本
