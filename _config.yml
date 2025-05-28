@@ -1,6 +1,10 @@
 title: Becky's AI Blog
 description: Exploring the latest in AI research, tools, and real-world 
 remote_theme: cotes2020/jekyll-theme-chirpy@v5.6.1 # 指定兼容旧Jekyll版本的主题版本
+
+lang: en
+timezone: Asia/Shanghai
+
 plugins:
   - jekyll-feed
   - jekyll-seo-tag
