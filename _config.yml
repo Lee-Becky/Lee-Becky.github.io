@@ -17,4 +17,3 @@ plugins:
   - jekyll-include-cache
   - jekyll-coffeescript
   - jekyll-commonmark-ghpages
-
