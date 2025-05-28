@@ -1,4 +1,23 @@
 title: Becky's AI Blog
+tagline: Sharing insights into the future of AI
 description: Exploring the latest in AI research, tools, and real-world applications.
-author: Becky Lee
-theme: minima
+url: "https://lee-becky.github.io"
+baseurl: ""
+
+remote_theme: cotes2020/jekyll-theme-chirpy
+
+# 插件支持 remote_theme
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
+
+lang: en
+timezone: Asia/Shanghai
+
+author:
+  name: Becky Lee
+  bio: AI enthusiast and technical blogger
+  email: lcfan961223@gmail.com
+
+markdown: kramdown
