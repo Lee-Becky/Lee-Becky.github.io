@@ -1,6 +1,34 @@
 title: "Becky's AI Blog"
+author: Lee-Becky
+email: lcfan961223@gmail.com
 description: "Exploring the latest in AI research, tools, and real-world applications"
-theme: jekyll-theme-minimal
+theme: jekyll-theme-beautifuljekyll
 
 lang: en
 timezone: Asia/Shanghai
+# 网站 URL（可选，建议设置成你的 GitHub Pages 地址）
+url: "https://lee-becky.github.io"
+baseurl: ""
+
+# 主页相关设置
+paginate: 5
+paginate_path: "/page:num/"
+
+# Beautiful Jekyll 主题自定义参数（可根据官方文档扩展）
+navbar-links:
+  博客: "index"
+  关于: "about"
+  # 你可以添加更多导航链接
+
+social-network-links:
+  github: Lee-Becky
+  # 可以加上其他社交账号, 如 twitter, linkedin
+
+# 可选设置（SEO, 评论等）
+# disqus: "你的 Disqus 短名"
+# google_analytics: "UA-XXXXXXXX-X"
+
+# 其他 Jekyll 配置
+markdown: kramdown
+highlighter: rouge
+permalink: /:year-:month-:day-:title/
