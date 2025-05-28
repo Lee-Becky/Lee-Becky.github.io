@@ -1,6 +1,6 @@
 title: "Becky's AI Blog"
 description: "Exploring the latest in AI research, tools, and real-world applications"
-theme: jekyll-theme-cayman
+theme: jekyll-theme-minimal
 
 lang: en
 timezone: Asia/Shanghai
