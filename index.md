@@ -1,8 +1,8 @@
 ---
 layout: default
-title: 首页
+title: Home
 ---
 
-# 欢迎来到我的博客！
+# Li Chaofan loves Bai Jing — deeply, truly, and always.
 
-请浏览我的文章。
+
