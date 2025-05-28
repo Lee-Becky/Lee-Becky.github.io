@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 关于我
+title: About Me
 ---
 
 # 👋 Hi, I'm Becky
@@ -35,7 +35,7 @@ Whether you're an AI beginner or deep in model fine-tuning, I hope you'll find s
 ## 📬 Let's Connect
 
 Have feedback, questions, or want to collaborate?  
-Reach out via [your-email@example.com] or follow me on [GitHub](https://github.com/Lee-Becky).
+Reach out via [lcfan961223@gmail.com] or follow me on [GitHub](https://github.com/Lee-Becky).
 
 Thanks for stopping by! 🚀  
 — Becky
